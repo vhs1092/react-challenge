@@ -1,0 +1,11 @@
+.product {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  > span {
+    width: calc(100% / 4);
+    text-align: start;
+    padding: 0 10px;
+  }
+}
